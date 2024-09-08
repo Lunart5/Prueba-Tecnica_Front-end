@@ -1,0 +1,15 @@
+.chart_container {
+  padding: 2rem;
+  width: auto;
+  height: auto;
+
+  .recharts-responsive-container {
+    min-height: 400px;
+  }
+}
+.chart_container__title {
+  text-align: center;
+  h2 {
+    font-size: 2rem;
+  }
+}

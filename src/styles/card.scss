@@ -1,0 +1,28 @@
+.profile_card {
+  background: rgb(208, 223, 236);
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 8rem;
+  gap: 1rem;
+  flex: 0 2 20%;
+  box-shadow: 0 0 14px 4px #0401011f;
+  transition: 1s all ease;
+  border: 1px solid rgb(208, 223, 236);
+  &:hover {
+    border: 1px solid #89b2cf;
+  }
+}
+.profile_card__img {
+  max-width: 6rem;
+  border-radius: 50%;
+}
+
+.profile_card__item {
+  text-align: center;
+  span {
+    font-size: 1rem;
+  }
+}
