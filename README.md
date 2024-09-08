@@ -1,3 +1,22 @@
+# Instalacion
+Asegurate de tener `Node.js`, `Git` y  VSCode o algun IDE instalado 
+Abre cmd y ejecuta `git clone https://github.com/iseijasunow/Prueba-Tecnica_Front-end.git`
+    Una vez terminado el proceso accede a la carpeta donde se ha clonado el repositorio
+Abre cmd en esta carpeta
+    Puedes ejecutar `code .` para abrir el proyecto en VSCode
+Ejecuta `npm i` para instalar la dependencias
+Ejecutra `npm run dev` para ejecutar el proyecto. 
+En la consola veras el puerto donde se esta ejecutando el proyecto, ej.: `http://localhost:5174/`
+
+# Decisiones
+La distribución de carpetas fue inspirada en la Estructura por tipo de ficheros.
+
+Es un proyecto bastante pequeño; sin embargo, pensando en la escalabilidad, se crearon componentes que pueden reutilizarse en otras vistas.
+
+Tomando en cuenta la escala actual y los requerimientos solicitados, no vi necesario el uso de contexto, aunque sí podría haber sido más robusto al usar librerías como Axios y React Hook Forms.
+
+Es un diseño bastante plano y sencillo, enfocado principalmente en la lógica, funcionalidad y optimización.
+
 # Prueba Técnica - Programador (Front-end)
 
 La siguiente es una prueba para evaluar a los postulantes a programador **Front-end**.
